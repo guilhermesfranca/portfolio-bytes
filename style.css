@@ -8,20 +8,76 @@ header {
   background-color: #99e300;
 }
 nav {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 50%;
 }
-nav, a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: larger;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+nav,
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: larger;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.home-text {
+  margin: 100px;
+}
 .logo {
   width: 200px;
 }
+.h2-home {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+}
+.h1-home {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #99e300;
+}
+.p-home {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+}
 
+.typing-container {
+  font-family: monospace;
+  color: #fff;
+  font-size: 2rem;
+  white-space: nowrap;
+  width: fit-content;
+  overflow: hidden;
+  animation: typing 2s steps(4, end) infinite;
+}
+
+.home {
+  background-color: #007aff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh; /* garante que fique centralizado na tela toda */
+  padding: 20px;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* espaço entre texto e </> */
+}
+
+.typing-container {
+  font-family: monospace;
+  color: #fff;
+  margin: 10px 0;
+  font-size: 20rem;
+  white-space: nowrap;
+  width: fit-content;
+  overflow: hidden;
+  animation: typing 2s steps(4, end) infinite;
+}
