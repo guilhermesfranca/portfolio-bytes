@@ -3,40 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Outfit:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>France Unltd</title>
   </head>
   <body>
     <header>
-      <img class="logo"src="logo.png" alt="logo france Unltd" />
+      <img class="logo" src="logo.png" alt="logo france Unltd" />
       <nav>
-        <a href="#home"> Home </a>
-        <a href="#sobre"> Sobre </a>
-        <a href="#skills"> Skills </a>
-        <a href="#projetos"> Projetos </a>
-        <a href="#contato"> Contacto </a>
+        <a href="#home"> &lt;Home&gt; </a>
+        <a href="#sobre"> &lt;Sobre&gt; </a>
+        <a href="#skills"> &lt;Skills&gt; </a>
+        <a href="#projetos"> &lt;Projetos&gt; </a>
+        <a href="#contato"> &lt;Contacto&gt; </a>
       </nav>
     </header>
     <main>
-      <section class="home" id="home">
-  <div class="home-content">
-    <div class="home-text">
-      <h2 class="h2-home">Olá, meu nome é</h2>
-      <h1 class="h1-home">Guilherme França</h1>
-      <p class="p-home">Desenvolvedor Full Stack</p>
-      <div class="social-buttons">
-        <button>LI</button>
-        <button>GH</button>
-        <button>WP</button>
-        <button>EM</button>
+      <div class="home-content">
+        <div class="home-text">
+          <h2 class="h2-home">Olá, meu nome é</h2>
+          <h1 class="h1-home">
+            Guilherme<br />
+            <span class="sobrenome">França</span>
+          </h1>
+          <p class="p-home">Desenvolvedor Full Stack</p>
+          <div class="social-links">
+            <a
+              href="https://linkedin.com/in/seuperfil"
+              target="_blank"
+              class="social-button"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/seuperfil"
+              target="_blank"
+              class="social-button"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://wa.me/5599999999999"
+              target="_blank"
+              class="social-button"
+              title="WhatsApp"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <a
+              href="mailto:seuemail@exemplo.com"
+              class="social-button"
+              title="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          <a href="curriculo.pdf" download class="download-button">
+  <i class="fas fa-download"></i> Baixar Currículo
+</a>
+
+        </div>
+        <h2 class="typing-container">&lt;/&gt;</h2>
       </div>
-      <button>download cv</button>
-    </div>
-
-    <div class="typing-container">&lt;/&gt;</div>
-  </div>
-</section>
-
 
       <section id="sobre">
         <img src="profile.png" alt="perfil" />
@@ -154,10 +200,9 @@
             <input type="text" />
             <br /><br />
             <input type="submit" value="Enviar" />
-            <input type="reset" value="Cancelar">
-            <br><br>
+            <input type="reset" value="Cancelar" />
+            <br /><br />
           </fieldset>
-    
         </form>
       </section>
     </main>
