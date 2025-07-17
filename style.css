@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: "Roboto Flex"
+  font-family: "Roboto Flex";
 }
 header {
   display: flex;
@@ -20,7 +20,7 @@ a {
   text-decoration: none;
   font-weight: 600;
   font-size: larger;
-  }
+}
 
 .home-text {
   margin: 50px;
@@ -41,8 +41,6 @@ a {
   letter-spacing: -2px;
   word-spacing: -2px;
   margin-top: -20px;
-  
-
 }
 .p-home {
   font-size: 1.5rem;
@@ -51,10 +49,15 @@ a {
   margin-top: -15px;
 }
 
-
+.navbar:hover {
+  color: #007aff;
+  transition: all ease 0.5s;
+  font-weight: bolder;
+  font-size: x-large;
+}
 
 .home-content {
-background: linear-gradient(135deg, #007aff, #99e300);
+  background: linear-gradient(135deg, #007aff, #99e300);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +66,7 @@ background: linear-gradient(135deg, #007aff, #99e300);
 }
 
 .typing-container {
-    color: #fff;
+  color: #fff;
   margin: 10px 0;
   font-size: 30rem;
   white-space: nowrap;
@@ -81,8 +84,18 @@ background: linear-gradient(135deg, #007aff, #99e300);
 }
 
 .download-button {
-  
-  
-font-size: 25px;
-
+  font-size: 25px;
 }
+
+.sobre {
+  display: flex;
+  align-items: center;
+}
+.sobre h2 {
+  color:#007aff;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 10px;
+  max
+}
+.Ssobre p ;=[;e[]]
