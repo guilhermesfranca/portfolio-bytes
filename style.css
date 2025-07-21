@@ -61,7 +61,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
+  min-height: 100vh;
   gap: 10%;
 }
 
@@ -89,11 +89,50 @@ a {
 
 .sobre {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  padding: 80px 10%; /* Adiciona espaçamento lateral para alinhar com o restante da página */
+  background-color: #f9f9f9; /* opcional: para destacar a seção */
 }
-.sobre h2 {
-  color:#007aff;
-  font-size: 42px;
+.text-box {
+  flex: 1;
+  max-width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ h2 {
+  color: #007aff;
+  font-size: 52px;
   text-align: center;
+  align-items: flex-start;
   margin-bottom: 10px;
+  text-shadow: #99e300 2px 2px;
+}
+.sobre p {
+  font-size: 28px;
+  text-align: center;
+  color: #004691;
+  max-width: 70ch;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+span {
+  color:#99e300
+}
+
+.profile {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 280px;
+  flex: 1;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; /* garante que ocupe toda a largura disponível */
+  gap: 40px; /* espaço entre imagem e texto */
+  flex-wrap: wrap; /* evita quebra em telas pequenas */
 }
