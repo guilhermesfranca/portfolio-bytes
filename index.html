@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!--Importação da fonte utilizada na página -->
     <link
       href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Outfit:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
       rel="stylesheet"
     />
+    <!--troca o ícone da barra de tarefas-->
+    <link rel="icon" type="image/svg+xml" href="./assets/tabg.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Outfit:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
+
+    <!--Importaçã dos ícones utilizados na página principal-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -23,8 +26,12 @@
     <title>France Unltd</title>
   </head>
   <body>
+    <!--------------
+    header e navegação
+    -------------------->
+    <!--ainda falta atualizar os links para endereços corretos-->
     <header>
-      <img class="logo" src="logo.png" alt="logo france Unltd" />
+      <img class="logo" src="./assets/logo.png" alt="logo france Unltd" />
       <nav>
         <a class="navbar" href="#home"> &lt;Home&gt; </a>
         <a class="navbar" href="#sobre"> &lt;Sobre&gt; </a>
@@ -82,34 +89,41 @@
         </div>
         <h2 class="typing-container">&lt;/&gt;</h2>
       </div>
-
+      <!----------------------
+        Seção Sobre Mim
+      ------------------------->
       <section class="sobre" id="sobre">
         <h2>SOBRE MIM</h2>
         <div class="box">
-          <img class="profile" src="profile.png" alt="perfil" />
+          <img class="profile" src="./assets/profile.png" alt="perfil" />
           <div class="text-box">
-            <p>
+            <p class="descricao">
               Desde que entrei no universo do <span>Desenvolvimento Web</span>,
               minha missão tem sido transformar ideias em experiências digitais.
               Sempre buscando me manter atualizado, aplicando boas práticas para
               criar sites que não só atendem às expectativas, mas
               <span>Superam</span>.A cada projeto, meu objetivo é entregar
               soluções que sejam não apenas eficientes, mas também visualmente
-              envolventes, acessíveis e, claro, adaptáveis às necessidades de cada
-              usuário.
+              envolventes, acessíveis e, claro, adaptáveis às necessidades de
+              cada usuário.
             </p>
-            <p>
-              Curso <span>Análise e Desenvolvimento de Sistemas</span>mas já penso
-              em engatar uma pós assim que finalizar minha graduação
+            <p class="descricao">
+              Curso <span>Análise e Desenvolvimento de Sistemas</span>mas já
+              penso em engatar uma pós assim que finalizar minha graduação
             </p>
-            <p>
+            <p class="descricao">
               Em 2025, estou tendo a oportunidade de participar de um bootcamp
               junto a Bytes<span>4</span>Future. Onde estou desenvolvendo
-              capacidades e skills valiosas para inserção no mercado de trabalho.
+              capacidades e skills valiosas para inserção no mercado de
+              trabalho.
             </p>
           </div>
         </div>
       </section>
+
+      <!----------------------
+        Seção Skills
+      ------------------------->
       <section id="skills">
         <h2>SKILLS</h2>
         <div>
@@ -143,7 +157,62 @@
           </div>
         </div>
       </section>
-      <section>
+      <!----------------------
+        Seção Idiomas
+      ------------------------->
+      <h2>IDIOMAS</h2>
+      <section class="card-main">
+        
+      
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <h3>Inglês</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>
+                      Leitura: C1 <br>
+                      Escuta: C1 <br>
+                      Fala: B2 <br>
+                      Escrita: B2
+                    </p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                    <h3>Code</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                    <h3>Launch</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--
         <h2>IDIOMAS</h2>
         <div>
           <div>
@@ -161,7 +230,7 @@
             <h3>INGLÊS</h3>
             <p>Leitura: C1 Escuta: C1 Fala: B2 Escrita: B2</p>
           </div>
-        </div>
+        </div>>-->
       </section>
       <section id="projetos">
         <h2>PROJETOS</h2>
@@ -181,6 +250,11 @@
           <p>descrição projeto</p>
         </div>
       </section>
+
+      <!----------------------
+        Seção Contato
+      ------------------------->
+
       <section id="contato">
         <h2>ENTRE EM CONTATO</h2>
         <form action="url" method="post">
@@ -207,5 +281,12 @@
         </form>
       </section>
     </main>
+    
+     <!----------------------
+        Seção Rodapé
+      ------------------------->
+    <footer>
+      <p>Desenvolvido por <span>Guilherme França</span></p>
+    </footer>
   </body>
 </html>
