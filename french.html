@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!--Importation des polices utilisées sur la page -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Outfit:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!--Changer l'icône de la barre des tâches-->
+    <link rel="icon" type="image/svg+xml" href="./assets/tabg.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!--Import des icônes utilisés sur la page principale-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>France Unltd</title>
+  </head>
+  <body>
+    <!--------------
+    en-tête et navigation
+    -------------------->
+    <!--les liens doivent encore être mis à jour pour les adresses correctes-->
+    <header>
+      <img class="logo" src="./assets/logo.png" alt="logo france Unltd" />
+      <nav>
+        <a class="navbar" href="#home"> &lt;Accueil&gt; </a>
+        <a class="navbar" href="#sobre"> &lt;À propos&gt; </a>
+        <a class="navbar" href="#skills"> &lt;Compétences&gt; </a>
+        <a class="navbar" href="#projetos"> &lt;Projets&gt; </a>
+        <a class="navbar" href="#contato"> &lt;Contact&gt; </a>
+        <div class="idiomas-container">
+          <a href="index.html"><img class="alt-idioma" src="assets/brpt.png" alt="changer la langue pt"></a>
+          <a href="english.html"><img class="alt-idioma" src="assets/ingles.png" alt="changer la langue us"></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="home" class="home-content">
+        <div class="home-text">
+          <h2 class="h2-home">Bonjour, je m'appelle</h2>
+          <h1 class="h1-home">
+            Guilherme<br />
+            <span class="sobrenome">França</span>
+          </h1>
+          <p class="p-home">Développeur Full Stack</p>
+          <div class="social-links">
+            <a
+              href="https://linkedin.com/in/guilhermesfranca"
+              target="_blank"
+              class="social-button"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/guilhermesfranca"
+              target="_blank"
+              class="social-button"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://wa.me/351928268114"
+              target="_blank"
+              class="social-button"
+              title="WhatsApp"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <a
+              href="mailto:guilhermesfranca@outlook.com"
+              class="social-button"
+              title="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          <a href="assets/Resume - Dev - Guilherme.pdf" download class="download-button">
+            <i class="fas fa-download"></i> Télécharger CV
+          </a>
+        </div>
+        <h2 class="typing-container">&lt;/&gt;</h2>
+      </div>
+      <!----------------------
+        Section À propos de moi
+      ------------------------->
+      <section class="sobre" id="sobre">
+        <h2>À PROPOS DE MOI</h2>
+        <div class="box">
+          <img class="profile" src="./assets/profile.png" alt="profil" />
+          <div class="text-box">
+            <p class="descricao">
+              Depuis que je suis entré dans l'univers du <span>Développement Web</span>,
+              ma mission est de transformer des idées en expériences numériques.
+              Je cherche toujours à rester à jour, en appliquant les bonnes pratiques pour
+              créer des sites qui ne se contentent pas de répondre aux attentes, mais les
+              <span>dépassent</span>. À chaque projet, mon objectif est de fournir
+              des solutions non seulement efficaces, mais aussi visuellement attrayantes, accessibles, et bien sûr, adaptées aux besoins
+              de chaque utilisateur.
+            </p>
+            <p class="descricao">
+              J'étudie <span>Analyse et Développement de Systèmes</span> mais je pense déjà à poursuivre un master dès que j'aurai terminé ma licence.
+            </p>
+            <p class="descricao">
+              En 2025, j'ai l'opportunité de participer à un bootcamp
+              avec Bytes<span>4</span>Future, où je développe
+              des capacités et des compétences précieuses pour entrer sur le marché du travail.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!----------------------
+        Section Compétences
+      ------------------------->
+
+      <div id="skills" class="container-skills">
+        <h2>COMPÉTENCES</h2>
+
+        <section class="skills">
+          <div class="div-skills">
+            <img src="assets/html.png" alt="logo html" />
+            <p>HTML</p>
+          </div>
+          <div class="div-skills">
+            <img src="assets/css.png" alt="logo css" />
+            <p>CSS</p>
+          </div>
+          <div class="div-skills">
+            <img src="assets/js.png" alt="logo js" />
+            <p>Javascript</p>
+          </div>
+          <div class="div-skills">
+            <img src="assets/react.png" alt="logo react" />
+            <p>ReactJS</p>
+          </div>
+          <div class="div-skills">
+            <img src="assets/rn2.png" alt="logo React Native" />
+            <p>React Native</p>
+          </div>
+          <div class="div-skills">
+            <img src="assets/vscode.png" alt="logo VsCode" />
+            <p>VsCode</p>
+          </div>
+          <div class="div-skills">
+            <img src="assets/tailw.png" alt="logo TailwindCss" />
+            <p>TailwindCss</p>
+          </div>
+          <div class="div-skills">
+            <img src="assets/node.png" alt="logo NodeJs" />
+            <p>NodeJs</p>
+          </div>
+
+          <div class="div-skills">
+            <img src="assets/git.png" alt="logo Git" />
+            <p>Git</p>
+          </div>
+        </section>
+      </div>
+
+      <!----------------------
+        Section Langues
+      ------------------------->
+
+      <section class="idiomas">
+        <h2>LANGUES</h2>
+        <div class="card-main">
+          <div class="container">
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <h3>Anglais</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                    Lecture : C1 <br />
+                    Écoute : C1 <br />
+                    Parlé : B2 <br />
+                    Écrit : B2
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <h3>Français</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                    Lecture : B1 <br />
+                    Écoute : B1 <br />
+                    Parlé : A2 <br />
+                    Écrit : A2
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <h3>Portugais</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>Compétence native</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------------
+        Section Projets
+      ------------------------->
+
+      <section class="projetos" id="projetos">
+        <h2>PROJETS</h2>
+        <div class="container-projetos">
+          <div class="card-projeto">
+            <div class="face-projeto face1-projeto">
+              <div class="content-projeto">
+                <span class="stars"></span>
+                <h3 class="text-project">Landing Page Cruzeiro</h3>
+                <p class="p-project">
+                  Ce projet est une page web personnalisée, développée pour
+                  créer un lien bio interactif pour Cruzeiro Esporte Clube. La
+                  page inclut des liens vers les réseaux sociaux du club et
+                  des informations sur certains de ses titres les plus importants,
+                  avec un design visuel impactant et responsive.
+                </p>
+
+                <!-- Boutons d'action -->
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/guilhermesfranca/cruzeirolink"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Dépôt</a
+                  >
+                  <a
+                    href="https://guilhermesfranca.github.io/cruzeirolink/"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Voir le site</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="face-projeto face2-projeto"></div>
+          </div>
+
+          <div class="card-projeto">
+            <div class="face-projeto face1-projeto">
+              <div class="content-projeto">
+                <span class="stars"></span>
+                <h3 class="text-project">Immobilière França</h3>
+                <p class="p-project">
+                  Landing Page d'agence immobilière avec possibilité de contact
+                  direct avec les agents.
+                </p>
+
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/guilhermesfranca/realstate"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Dépôt</a
+                  >
+                  <a
+                    href="https://guilhermesfranca.github.io/realstate"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Voir le site</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="face-projeto face2-projeto"></div>
+          </div>
+
+          <div class="card-projeto">
+            <div class="face-projeto face1-projeto">
+              <div class="content-projeto">
+                <span class="stars"></span>
+                <h3 class="text-project">Casinha do Café</h3>
+                <p class="p-project">
+                  Bienvenue sur le projet Casinha do Café inspiré de la culture
+                  française et du goût authentique du café du Minas Gerais, Brésil.
+                  L'objectif de ce site est d'offrir aux visiteurs une
+                  expérience unique, mettant en valeur la qualité du café, des informations
+                  sur le lieu, les horaires et les moyens de contact.
+                </p>
+
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/guilhermesfranca/coffeshop"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Dépôt</a
+                  >
+                  <a
+                    href="https://guilhermesfranca.github.io/coffeshop/"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Voir le site</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="face-projeto face2-projeto"></div>
+          </div>
+
+          <div class="card-projeto">
+            <div class="face-projeto face1-projeto">
+              <div class="content-projeto">
+                <h3 class="text-project">França's Pet Shop</h3>
+                <p class="p-project">
+                  La page d'accueil du Petshop França's a été développée
+                  en HTML et CSS, offrant une expérience esthétique
+                  et fonctionnelle pour les utilisateurs, avec un lien
+                  direct vers WhatsApp.
+                </p>
+
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/guilhermesfranca/petshop"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Dépôt</a
+                  >
+                  <a
+                    href="https://guilhermesfranca.github.io/petshop/"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Voir le site</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="face-projeto face2-projeto"></div>
+          </div>
+
+          <div class="card-projeto">
+            <div class="face-projeto face1-projeto">
+              <div class="content-projeto">
+                <span class="stars"></span>
+                <h3 class="text-project">Simpsons Dex</h3>
+                <p class="p-project">
+                  Page d'accueil d'une wikipédia inspirée de la série animée
+                  Les Simpsons, avec des informations sur certains personnages
+                  importants et notables de la série, développée
+                  en HTML, CSS et JavaScript.
+                </p>
+
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/guilhermesfranca/simpsonsdex"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Dépôt</a
+                  >
+                  <a
+                    href="https://guilhermesfranca.github.io/simpsonsdex/"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Voir le site</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="face-projeto face2-projeto"></div>
+          </div>
+
+          <div class="card-projeto">
+            <div class="face-projeto face1-projeto">
+              <div class="content-projeto">
+                <span class="stars"></span>
+                <h3 class="text-project">Barber França</h3>
+                <p class="p-project">
+                  Il s'agit d'une landing page pour un barbier,
+                  développée dans le cadre de mon apprentissage
+                  React. L'objectif principal était de pratiquer l'utilisation des hooks
+                  useState et useEffect, ainsi qu'appliquer des concepts de design
+                  et d'ergonomie.
+                </p>
+
+                <div class="botoes-projeto">
+                  <a
+                    href="https://github.com/guilhermesfranca/barberFranca"
+                    target="_blank"
+                    class="btn-projeto"
+                    >Dépôt</a
+                  >                  
+                </div>
+              </div>
+            </div>
+            <div class="face-projeto face2-projeto"></div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------------
+        Section Contact
+      ------------------------->
+
+     <section id="contato">
+  <h2>CONTACTEZ-MOI</h2>
+  <form action="https://getform.io/f/bkknoyvb" method="POST">
+    <fieldset>
+      <label for="name">Nom</label>
+      <input type="text" name="name" id="name" required />
+
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+
+      <label for="phone">Téléphone</label>
+      <input type="text" name="phone" id="phone" />
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" required></textarea>
+
+      <input type="submit" value="Envoyer" />
+      <input type="reset" value="Annuler" />
+    </fieldset>
+  </form>
+</section>
+
+    </main>
+
+    <!----------------------
+        Section Pied de page
+      ------------------------->
+    <footer class="rodape">
+      <p>Développé par <strong>Guilherme França</strong></p>  
+      <p>
+        © 2025 Tous droits réservés. Ce site fait partie du projet de cours de
+        <strong>Bytes4Future</strong>.
+      </p>
+    </footer>
+  </body>
+</html>

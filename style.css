@@ -25,16 +25,24 @@ header {
 
 nav {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
   justify-content: end;
   width: 50%;
 }
 .navbar:hover {
-  color: #007aff;
+  color: #8130cd;
   transition: all ease 0.5s;
   font-weight: bolder;
   font-size: x-large;
+}
+.idiomas-container {
+  margin-left: 35px;
+}
+.alt-idioma {
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 nav,
@@ -53,6 +61,10 @@ Página Principal
   margin: 50px;
 }
 
+i:hover {
+  color:#8130cd;
+  transition: all ease 0.5s;
+}
 .h2-home {
   font-size: 2.5rem;
   font-weight: 600;
@@ -74,29 +86,27 @@ Página Principal
 }
 
 .home-content {
-  background: linear-gradient(135deg, #007aff, #99e300);
+  background: linear-gradient(35deg, #99e300, #8130cd);
   background-size: 180% 180%;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   gap: 10%;
-  animation: gradient-animation 18s ease infinite;
+  animation: gradient-animation 8s ease infinite;
 }
 
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
-  
   }
-50% {
-  background-position: 100% 50%;
-}
+  50% {
+    background-position: 100% 50%;
+  }
 
-100% {
-  background-position: 0% 50%;  
-}
-
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /*Simbolo de </> da Home*/
@@ -111,6 +121,7 @@ Página Principal
 .social-links {
   font-size: 40px;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 .sobrenome {
   display: block;
@@ -120,6 +131,10 @@ Página Principal
 
 .download-button {
   font-size: 25px;
+}
+.download-button:hover {
+  color: #8130cd;
+  transition: all ease 0.5s;
 }
 
 /*------------
@@ -146,12 +161,12 @@ h2 {
   text-align: center;
   align-items: flex-start;
   margin-bottom: 10px;
-  text-shadow: #007aff 2px 2px;
+  text-shadow: #8130cd 2px 2px;
 }
 .descricao {
   font-size: 28px;
   text-align: center;
-  color: #004691;
+  color: #8130cd;
   max-width: 70ch;
   font-weight: 400;
   margin-top: 35px;
@@ -177,116 +192,168 @@ span {
 }
 
 footer {
-  background-color: #007aff;
+  background-color: #8130cd;
   color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/*------------
+Página Skills
+------------*/
+.container-skills {
+  padding: 80px 10%;
   text-align: center;
 }
 
-
-
-
-
-
-
-
-.card-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.container{
-    width: 1000px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+.div-skills {
+  flex: 0 0 calc((90% - 40px) / 3); /* 40px = 2 gaps de 20px entre 3 itens */
+  height: 250px;
+}
+.div-skills img {
+  width: 100px;
+  margin-top: 40px;
+}
+.div-skills p {
+  color: #7dd02f;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 600;
+}
+.div-skills:hover {
+  filter: invert(100%);
+  transition: filter 0.3s ease;
 }
 
-.container .card{
-    position: relative;
-    cursor: pointer;
+/* Imagem cresce ao passar o mouse na div */
+.div-skills:hover img {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
 }
 
-.container .card .face{
-    width: 300px;
-    height: 200px;
-    border-radius: 15px;
-    transition: 0.5s;
+/* Texto cresce ao passar o mouse na div */
+.div-skills:hover p {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
 }
 
-.container .card .face.face1{
-    position: relative;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
+/*------------
+Página Idiomas
+------------*/
+
+.idiomas {
+  background-color: #f9f9f9; /* para destacar a seção */
+  padding: 80px 10%; /* Adiciona espaçamento lateral para alinhar com o restante da página */
 }
 
-
-
-.container .card:hover .face.face1{
-    background: #7dd02f;
-    transform: translateY(0);
+.card-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
 }
 
-.container .card .face.face1 .content{
-    opacity: 0.7;
-    transition: 0.5s;
+.container {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-
-.container .card .face.face1 .content img{
-    max-width: 100px;
+.container .card {
+  position: relative;
+  cursor: pointer;
 }
 
-.container .card .face.face1 .content h3{
-    margin: 10px 0 0;
-    padding: 0;
-    opacity: 0;
-    color: #fff;
-    text-align: center;
-    font-size: 1.5em;
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  transition: 0.5s;
 }
 
-.container .card .face.face2{
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-    transform: translateY(-100px);
+.container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
 }
 
-.container .card:hover .face.face2{
-    transform: translateY(0);
+.container .card:hover .face.face1 {
+  background: #8130cd;
+  transform: translateY(0);
 }
 
-.container .card .face.face2 .content p{
-    margin: 0;
-    line-height: 1.5rem;
-    padding: 0;
+.container .card .face.face1 .content {
+  opacity: 0.7;
+  transition: 0.5s;
 }
 
-.container .card .face.face2 .content a{
-    margin: 15px 0 0;
-    display:  inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
+.container .card .face.face1 .content img {
+  max-width: 100px;
 }
 
-.container .card .face.face2 .content a:hover{
-    background: #333;
-    color: #fff;
+.container .card .face.face1 .content h3 {
+  /*opacity está escondendo o h3 quando não estiver com o mouse sobre o card*/
+  margin: 10px 0 0;
+  opacity: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+.container .card:hover .face.face1 .content h3 {
+  /* faz o texto h3 aparecer só quando o mouse estiver em cima da div card*/
+  opacity: 1;
+  transform: translateY(0);
+}
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  color: #8130cd;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover {
+  background: #333;
+  color: #fff;
 }
 
 .container .card:nth-child(1) .face1 {
@@ -296,13 +363,13 @@ footer {
 }
 
 .container .card:nth-child(2) .face1 {
-  background-image: url("assets/frances.png");
+  background-image: url("assets/france.png");
   background-size: cover;
   background-position: center;
 }
 
 .container .card:nth-child(3) .face1 {
-  background-image: url("assets/portugues.png");
+  background-image: url("assets/brpt.png");
   background-size: cover;
   background-position: center;
 }
@@ -315,3 +382,247 @@ footer {
 .container .card:hover .face .content {
   opacity: 1;
 }
+
+/*------------
+Página Projetos
+------------*/
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.botoes-projeto {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-projeto {
+  background-color: #7dd02f;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-projeto:hover {
+  background-color: #5fa226;
+}
+.projetos {
+  margin-top: 45px;
+}
+.container-projetos {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+  margin: 100px auto;
+  padding: 40px 0;
+
+  .card-projeto {
+    position: relative;
+    width: 418px;
+    height: 236px;
+    margin: 0 auto;
+    background: #8130cd;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+
+    .face-projeto {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &.face1-projeto {
+        box-sizing: border-box;
+        padding: 10px;
+        align-items: start;
+
+        h2 {
+          margin: 0;
+          padding: 0;
+        }
+        .text-project {
+          color:#7dd02f;
+          text-shadow: #8130cd 2px 2px  ;
+          text-align: center;
+          font-size: 1.5rem;
+        }
+        .p-project {
+          color:#fff;
+          text-align: center; 
+          font: 0.9rem Arial, sans-serif;
+          margin-top: 5px;
+        }
+
+        .python {
+          background-color: #00fffc;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .cSharp {
+          background-color: #fc00ff;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      &.face2-projeto {
+        transition: 0.5s;
+
+        h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 10em;
+          color: #fff;
+          transition: 0.5s;
+          text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          z-index: 10;
+        }
+      }
+    }
+
+    &:hover .face2-projeto {
+      height: 60px;
+
+      h2 {
+        font-size: 2em;
+      }
+    }
+  }
+
+  .card-projeto:nth-child(1) .face2-projeto {
+    background-image: url("assets/cruzeiro.gif");
+    border-radius: 15px;
+  }
+
+  .card-projeto:nth-child(2) .face2-projeto {
+    background-image: url("assets/realstate.gif");
+    border-radius: 15px;
+    border-radius: 15px;
+  }
+
+  .card-projeto:nth-child(3) .face2-projeto {
+    background-image: url("assets/cafe.gif");
+    border-radius: 15px;
+  }
+  .card-projeto:nth-child(4) .face2-projeto {
+    background-image: url("assets/petshop.gif");
+    border-radius: 15px;
+  }
+  .card-projeto:nth-child(5) .face2-projeto {
+    background-image: url("assets/simpsons.gif");
+    border-radius: 15px;
+  }
+  .card-projeto:nth-child(6) .face2-projeto {
+    background-image: url("assets/barber.gif");
+    border-radius: 15px;
+  }
+}
+
+/*------------
+Página Contato
+------------*/
+#contato {
+  padding: 60px 20px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: "Righteous", cursive;
+  text-align: center;
+}
+
+#contato h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #7dd02f;
+  letter-spacing: 1px;
+}
+
+#contato form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #2e2e2e;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+#contato fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contato label {
+  display: block;
+  margin-bottom: 6px;
+  color: #7dd02f;
+  font-size: 1rem;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato input[type="tel"],
+#contato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #444;
+  color: #fff;
+  font-size: 0.95rem;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+}
+
+#contato input[type="text"]:focus,
+#contato input[type="email"]:focus,
+#contato input[type="tel"]:focus,
+#contato textarea:focus {
+  outline: 2px solid #7dd02f;
+}
+
+#contato textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+#contato input[type="submit"],
+#contato input[type="reset"] {
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+  font-family: "Righteous", cursive;
+}
+
+#contato input[type="submit"] {
+  background-color: #8130cd;
+  color: #fff;
+}
+
+#contato input[type="submit"]:hover {
+  background-color: #5d1c9a;
+}
+
+#contato input[type="reset"] {
+  background-color: #666;
+  color: #fff;
+}
+
+#contato input[type="reset"]:hover {
+  background-color: #444;
+}
+
