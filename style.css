@@ -626,3 +626,489 @@ Página Contato
   background-color: #444;
 }
 
+
+
+
+/*TODA ESSA SEÇÃO PARA BAIXO É APENAS UM TESTE, FEITO INICIALMENTE COM INTELIGÊNCIA ARTIFICIAL PARA UMA TENTATIVA DE OTIMIZAÇÃO EM DISPOSITIVOS MÓVEIS E NÃO DEVERÁ SER CONSIDERADA COMO PARTE INTEGRANTE DO PROJETO*/
+
+/* Media queries for mobile devices */
+
+/* Smartphones portrait (up to 600px) */
+@media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .logo {
+    width: 150px;
+    padding: 5px 0;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .navbar {
+    font-size: 1rem;
+  }
+
+  .idiomas-container {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .alt-idioma {
+    width: 25px;
+    margin-left: 5px;
+  }
+
+  .home-text {
+    margin: 20px 10px;
+    text-align: center;
+  }
+
+  .h2-home {
+    font-size: 1.8rem;
+  }
+
+  .h1-home {
+    font-size: 3rem;
+    margin-top: -10px;
+  }
+
+  .p-home {
+    font-size: 1.1rem;
+    margin-top: -10px;
+  }
+
+  .social-links {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .typing-container {
+    font-size: 12rem;
+  }
+
+  .download-button {
+    font-size: 18px;
+  }
+
+  .sobre {
+    padding: 40px 5%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .descricao {
+    font-size: 18px;
+    max-width: 90vw;
+  }
+
+  .profile {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .container-skills {
+    padding: 40px 5%;
+  }
+
+  .div-skills {
+    flex: 0 0 45%;
+    height: 180px;
+  }
+
+  .div-skills img {
+    width: 70px;
+    margin-top: 20px;
+  }
+
+  .div-skills p {
+    font-size: 18px;
+  }
+
+  .idiomas {
+    padding: 40px 5%;
+  }
+
+  .card-main {
+    padding: 50px 20px;
+  }
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .container .card {
+    width: 90%;
+  }
+
+  .container .card .face {
+    width: 100%;
+    height: auto !important;
+  }
+
+  .container .card .face.face1 {
+    transform: translateY(0) !important;
+  }
+
+  .container .card .face.face1 .content h3 {
+    font-size: 1.2em;
+  }
+
+  .container .card .face.face2 {
+    transform: translateY(0) !important;
+    padding: 15px;
+    box-shadow: none;
+  }
+
+  .projetos {
+    margin-top: 25px;
+  }
+
+  .container-projetos {
+    grid-template-columns: 1fr !important;
+    grid-gap: 20px;
+    margin: 50px auto 20px auto;
+    padding: 20px 5%;
+  }
+
+  #contato {
+    padding: 30px 10px;
+  }
+
+  #contato form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  #contato h2 {
+    font-size: 1.6rem;
+  }
+
+  #contato label {
+    font-size: 0.9rem;
+  }
+
+  #contato input[type="text"],
+  #contato input[type="email"],
+  #contato input[type="tel"],
+  #contato textarea {
+    font-size: 0.85rem;
+  }
+
+  #contato input[type="submit"],
+  #contato input[type="reset"] {
+    font-size: 0.85rem;
+    padding: 8px 20px;
+  }
+
+}
+
+/* Smartphones landscape and small tablets (601px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 5%;
+  }
+
+  .logo {
+    width: 180px;
+    padding: 5px 0;
+  }
+
+  nav {
+    width: 60%;
+    gap: 12px;
+  }
+
+  .navbar {
+    font-size: 1.1rem;
+  }
+
+  .alt-idioma {
+    width: 28px;
+  }
+
+  .home-text {
+    margin: 40px 20px;
+  }
+
+  .h2-home {
+    font-size: 2rem;
+  }
+
+  .h1-home {
+    font-size: 4rem;
+  }
+
+  .p-home {
+    font-size: 1.2rem;
+  }
+
+  .social-links {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .typing-container {
+    font-size: 18rem;
+  }
+
+  .download-button {
+    font-size: 22px;
+  }
+
+  .sobre {
+    padding: 50px 8%;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .descricao {
+    font-size: 22px;
+    max-width: 75ch;
+  }
+
+  .profile {
+    max-width: 400px;
+  }
+
+  .box {
+    gap: 30px;
+  }
+
+  .container-skills {
+    padding: 50px 8%;
+  }
+
+  .div-skills {
+    flex: 0 0 30%;
+    height: 220px;
+  }
+
+  .div-skills img {
+    width: 85px;
+    margin-top: 30px;
+  }
+
+  .div-skills p {
+    font-size: 20px;
+  }
+
+  .idiomas {
+    padding: 50px 8%;
+  }
+
+  .card-main {
+    padding: 80px 40px;
+  }
+
+  .container {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .container .card {
+    width: 320px;
+  }
+
+  .container .card .face {
+    width: 320px;
+    height: 180px;
+  }
+
+  .projetos {
+    margin-top: 35px;
+  }
+
+  .container-projetos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 40px 8%;
+    margin: 80px auto;
+  }
+
+  #contato {
+    padding: 40px 20px;
+  }
+
+  #contato form {
+    width: 400px;
+    padding: 25px;
+  }
+
+  #contato h2 {
+    font-size: 1.8rem;
+  }
+
+  #contato label {
+    font-size: 1rem;
+  }
+
+  #contato input[type="text"],
+  #contato input[type="email"],
+  #contato input[type="tel"],
+  #contato textarea {
+    font-size: 0.9rem;
+  }
+
+  #contato input[type="submit"],
+  #contato input[type="reset"] {
+    font-size: 0.9rem;
+    padding: 10px 22px;
+  }
+
+}
+
+/* ---------- HOME SECTION: Ajustando o símbolo </> e centralização --------- */
+@media (max-width: 600px) {
+
+  .home-content {
+    flex-direction: column;
+    gap: 30px;
+    min-height: unset;
+    padding: 30px 0 50px 0;
+    text-align: center;
+  }
+
+  .typing-container {
+    font-size: 5rem !important;
+    margin: 0 auto 20px auto;
+    animation: none; /* remova animação se ela bagunçar a proporção no mobile */
+  }
+
+  .home-text {
+    margin: 10px 10px 0 10px;
+    text-align: center;
+  }
+  
+  .h1-home {
+    font-size: 2.5rem;
+    margin-top: -5px;
+  }
+  .h2-home {
+    font-size: 1.1rem;
+  }
+  .p-home {
+    font-size: 1rem;
+  }
+}
+
+
+/* ---------- SEÇÃO IDIOMAS: Cards responsivos, empilhados --------- */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column !important;
+    align-items: center;
+    width: 100% !important;
+    gap: 25px;
+  }
+  .card-main {
+    padding: 30px 0 !important;
+  }
+  .container .card, .container .card .face {
+    width: 95vw !important;
+    min-width: unset;
+    max-width: 380px;
+    margin: 0 auto;
+    border-radius: 15px;
+    height: auto !important;
+  }
+
+  .container .card .face.face1, .container .card .face.face2 {
+    transform: none !important;
+    min-height: 100px;
+    padding: 10px 0;
+  }
+  .container .card .face.face2 .content p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+}
+
+
+/* ---------- SEÇÃO PROJETOS: Grid em coluna no mobile --------- */
+@media (max-width: 1000px) {
+  .container-projetos {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    align-items: center;
+    padding: 20px 0 40px 0 !important;
+    margin: 25px 0 !important;
+  }
+  .card-projeto {
+    width: 95vw !important;
+    max-width: 370px !important;
+    min-width: unset;
+    height: auto !important;
+    margin: 0 auto;
+  }
+  .face-projeto {
+    position: relative !important;
+    width: 100% !important;
+    min-height: 230px;
+    height: auto !important;
+    border-radius: 15px;
+  }
+  .face-projeto.face2-projeto {
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 120px;
+  }
+}
+.h1-home {
+  line-height:4rem;
+}
+
+@media (max-width: 600px) {
+  .container-projetos {
+    padding: 8px 0 30px 0 !important;
+    gap: 18px !important;
+    margin: 0 !important;
+  }
+  .card-projeto {
+    max-width: 98vw !important;
+    min-width: 0;
+  }
+  .face-projeto.face2-projeto {
+    min-height: 60px;
+  }
+  .text-project {
+    font-size: 1.1rem;
+  }
+  .p-project {
+    font-size: 0.93rem;
+  }
+}
+
+
+/* CORRIGINDO OVERFLOW/SCROLL QUEBRA DE PALAVRA */
+.p-project, .descricao {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
