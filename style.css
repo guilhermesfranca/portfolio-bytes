@@ -1061,6 +1061,9 @@ Página Contato
     padding: 20px 0 40px 0 !important;
     margin: 25px 0 !important;
   }
+  .h1-home {
+  line-height:4rem;
+}
   .card-projeto {
     width: 95vw !important;
     max-width: 370px !important;
