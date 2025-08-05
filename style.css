@@ -161,12 +161,12 @@ h2 {
   text-align: center;
   align-items: flex-start;
   margin-bottom: 10px;
-  text-shadow: #8130cd 2px 2px;
+  text-shadow: #8230cf 2px 2px;
 }
 .descricao {
   font-size: 28px;
   text-align: center;
-  color: #8130cd;
+  color: #8400ff;
   max-width: 70ch;
   font-weight: 400;
   margin-top: 35px;
