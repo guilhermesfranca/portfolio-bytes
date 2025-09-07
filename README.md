@@ -1,5 +1,6 @@
-# Portfólio Guilherme França 🌟
+# Portfólio Guilherme França | Portfolio Guilherme França
 
+**English version available below | Versão em inglês disponível abaixo**
 Um portfólio pessoal moderno e responsivo, desenvolvido para apresentar minhas habilidades como Desenvolvedor Full Stack e destacar projetos realizados.
 
 ## 📋 Sobre o Projeto
