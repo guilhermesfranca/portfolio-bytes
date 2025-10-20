@@ -45,7 +45,7 @@
       </nav>
     </header>
     <main>
-      <div id="home" class="home-content">
+      <section id="home" class="home-content">
         <div class="home-text">
           <h2 class="h2-home">Hello, my name is</h2>
           <h1 class="h1-home">
@@ -92,7 +92,7 @@
           </a>
         </div>
         <h2 class="typing-container">&lt;/&gt;</h2>
-      </div>
+      </section>
       <!----------------------
         About Me Section
       ------------------------->
@@ -126,10 +126,10 @@
         Skills Section
       ------------------------->
 
-      <div id="skills" class="container-skills">
+      <section id="skills" class="container-skills">
         <h2>SKILLS</h2>
 
-        <section class="skills">
+        <div class="skills">
           <div class="div-skills">
             <img src="assets/html.png" alt="html logo" />
             <p>HTML</p>
@@ -167,8 +167,8 @@
             <img src="assets/git.png" alt="Git logo" />
             <p>Git</p>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!----------------------
         Languages Section
@@ -239,25 +239,24 @@
             <div class="face-projeto face1-projeto">
               <div class="content-projeto">
                 <span class="stars"></span>
-                <h3 class="text-project">Cruzeiro Landing Page</h3>
+                <h3 class="text-project">WatchList</h3>
                 <p class="p-project">
-                  This project is a custom webpage developed to
-                  create an interactive bio link for Cruzeiro Esporte Clube. The
-                  page includes links to the club's social media and
-                  information about some of its most important titles,
-                  with a striking and responsive visual design.
+                  Modern web application developed to manage movie watch lists. 
+                  Allows adding, editing, rating and organizing movies between 
+                  watched and unwatched, with a star rating system. Built with 
+                  Next.js, React, MongoDB and Tailwind CSS.
                 </p>
 
                 <!-- Action Buttons -->
                 <div class="botoes-projeto">
                   <a
-                    href="https://github.com/guilhermesfranca/cruzeirolink"
+                    href="https://github.com/guilhermesfranca/wlist"
                     target="_blank"
                     class="btn-projeto"
                     >Repository</a
                   >
                   <a
-                    href="https://guilhermesfranca.github.io/cruzeirolink/"
+                    href="https://wlist-1jr3.onrender.com/"
                     target="_blank"
                     class="btn-projeto"
                     >View site</a
@@ -272,10 +271,12 @@
             <div class="face-projeto face1-projeto">
               <div class="content-projeto">
                 <span class="stars"></span>
-                <h3 class="text-project">França Real Estate</h3>
+                <h3 class="text-project">Spotidados</h3>
                 <p class="p-project">
-                  Real estate landing page with direct contact
-                  options for agents.
+                  Spotify history application with interactive data visualizations. 
+                  Everything processed client-side with thousands of JSON entries. 
+                  Built with Next.js and React. Dynamic filtering system, real-time 
+                  artist search, smooth transitions. Worked better than we expected.
                 </p>
 
                 <div class="botoes-projeto">
@@ -422,28 +423,27 @@
         Contact Section
       ------------------------->
 
-     <section id="contato">
-  <h2>GET IN TOUCH</h2>
-  <form action="https://getform.io/f/bkknoyvb" method="POST">
-    <fieldset>
-      <label for="name">Name</label>
-      <input type="text" name="name" id="name" required />
+      <section id="contato">
+        <h2>GET IN TOUCH</h2>
+        <form action="https://getform.io/f/bkknoyvb" method="POST">
+          <fieldset>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
 
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
 
-      <label for="phone">Phone</label>
-      <input type="text" name="phone" id="phone" />
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" />
 
-      <label for="message">Message</label>
-      <textarea name="message" id="message" required></textarea>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
 
-      <input type="submit" value="Send" />
-      <input type="reset" value="Cancel" />
-    </fieldset>
-  </form>
-</section>
-
+            <input type="submit" value="Send" />
+            <input type="reset" value="Cancel" />
+          </fieldset>
+        </form>
+      </section>
     </main>
 
     <!----------------------

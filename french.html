@@ -45,7 +45,7 @@
       </nav>
     </header>
     <main>
-      <div id="home" class="home-content">
+      <section id="home" class="home-content">
         <div class="home-text">
           <h2 class="h2-home">Bonjour, je m'appelle</h2>
           <h1 class="h1-home">
@@ -92,7 +92,7 @@
           </a>
         </div>
         <h2 class="typing-container">&lt;/&gt;</h2>
-      </div>
+      </section>
       <!----------------------
         Section À propos de moi
       ------------------------->
@@ -126,10 +126,10 @@
         Section Compétences
       ------------------------->
 
-      <div id="skills" class="container-skills">
+      <section id="skills" class="container-skills">
         <h2>COMPÉTENCES</h2>
 
-        <section class="skills">
+        <div class="skills">
           <div class="div-skills">
             <img src="assets/html.png" alt="logo html" />
             <p>HTML</p>
@@ -167,8 +167,8 @@
             <img src="assets/git.png" alt="logo Git" />
             <p>Git</p>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!----------------------
         Section Langues
@@ -239,25 +239,25 @@
             <div class="face-projeto face1-projeto">
               <div class="content-projeto">
                 <span class="stars"></span>
-                <h3 class="text-project">Landing Page Cruzeiro</h3>
+                <h3 class="text-project">WatchList</h3>
                 <p class="p-project">
-                  Ce projet est une page web personnalisée, développée pour
-                  créer un lien bio interactif pour Cruzeiro Esporte Clube. La
-                  page inclut des liens vers les réseaux sociaux du club et
-                  des informations sur certains de ses titres les plus importants,
-                  avec un design visuel impactant et responsive.
+                  Application web moderne développée pour gérer listes de films
+                  à regarder. Permet d'ajouter, éditer, évaluer et organiser
+                  films entre vus et non vus, avec un système de
+                  notation par étoiles. Construit avec Next.js, React,
+                  MongoDB et Tailwind CSS.
                 </p>
 
                 <!-- Boutons d'action -->
                 <div class="botoes-projeto">
                   <a
-                    href="https://github.com/guilhermesfranca/cruzeirolink"
+                    href="https://github.com/guilhermesfranca/wlist"
                     target="_blank"
                     class="btn-projeto"
                     >Dépôt</a
                   >
                   <a
-                    href="https://guilhermesfranca.github.io/cruzeirolink/"
+                    href="https://wlist-1jr3.onrender.com/"
                     target="_blank"
                     class="btn-projeto"
                     >Voir le site</a
@@ -272,10 +272,13 @@
             <div class="face-projeto face1-projeto">
               <div class="content-projeto">
                 <span class="stars"></span>
-                <h3 class="text-project">Immobilière França</h3>
+                <h3 class="text-project">Spotidados</h3>
                 <p class="p-project">
-                  Landing Page d'agence immobilière avec possibilité de contact
-                  direct avec les agents.
+                  Application d'historique Spotify avec visualisations
+                  de données interactives. Tout traité côté client avec
+                  milliers d'entrées JSON. Construit avec Next.js et React.
+                  Système de filtrage dynamique, recherche en temps réel
+                  d'artistes, transitions fluides. Fonctionné mieux que prévu.
                 </p>
 
                 <div class="botoes-projeto">
@@ -422,28 +425,27 @@
         Section Contact
       ------------------------->
 
-     <section id="contato">
-  <h2>CONTACTEZ-MOI</h2>
-  <form action="https://getform.io/f/bkknoyvb" method="POST">
-    <fieldset>
-      <label for="name">Nom</label>
-      <input type="text" name="name" id="name" required />
+      <section id="contato">
+        <h2>CONTACTEZ-MOI</h2>
+        <form action="https://getform.io/f/bkknoyvb" method="POST">
+          <fieldset>
+            <label for="name">Nom</label>
+            <input type="text" name="name" id="name" required />
 
-      <label for="email">E-mail</label>
-      <input type="email" name="email" id="email" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
 
-      <label for="phone">Téléphone</label>
-      <input type="text" name="phone" id="phone" />
+            <label for="phone">Téléphone</label>
+            <input type="text" name="phone" id="phone" />
 
-      <label for="message">Message</label>
-      <textarea name="message" id="message" required></textarea>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
 
-      <input type="submit" value="Envoyer" />
-      <input type="reset" value="Annuler" />
-    </fieldset>
-  </form>
-</section>
-
+            <input type="submit" value="Envoyer" />
+            <input type="reset" value="Annuler" />
+          </fieldset>
+        </form>
+      </section>
     </main>
 
     <!----------------------
@@ -457,4 +459,4 @@
       </p>
     </footer>
   </body>
-</html>
+</html

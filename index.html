@@ -39,13 +39,24 @@
         <a class="navbar" href="#projetos"> &lt;Projetos&gt; </a>
         <a class="navbar" href="#contato"> &lt;Contacto&gt; </a>
         <div class="idiomas-container">
-          <a href="french.html"><img class="alt-idioma" src="assets/france.png" alt="alterar idioma fr"></a>
-          <a href="english.html"><img class="alt-idioma" src="assets/ingles.png" alt="alterar idioma us"></a>
+          <a href="french.html"
+            ><img
+              class="alt-idioma"
+              src="assets/france.png"
+              alt="alterar idioma fr"
+          /></a>
+          <a href="english.html"
+            ><img
+              class="alt-idioma"
+              src="assets/ingles.png"
+              alt="alterar idioma us"
+          /></a>
         </div>
       </nav>
     </header>
     <main>
-      <section id="home" class="home-content"> <!-- Página inicial com apresentação pessoal e links para as redes sociais e download do CV -->
+      <section id="home" class="home-content">
+        <!-- Página inicial com apresentação pessoal e links para as redes sociais e download do CV -->
         <div class="home-text">
           <h2 class="h2-home">Olá, meu nome é</h2>
           <h1 class="h1-home">
@@ -87,11 +98,16 @@
               <i class="fas fa-envelope"></i>
             </a>
           </div>
-          <a href="assets/Cv Dev Guilherme.pdf  " download class="download-button">
+          <a
+            href="assets/Cv Dev Guilherme.pdf  "
+            download
+            class="download-button"
+          >
             <i class="fas fa-download"></i> Baixar Currículo
           </a>
         </div>
-        <h2 class="typing-container">&lt;/&gt;</h2> <!-- </> -->
+        <h2 class="typing-container">&lt;/&gt;</h2>
+        <!-- </> -->
       </section>
       <!----------------------
         Seção Sobre Mim
@@ -242,25 +258,25 @@
             <div class="face-projeto face1-projeto">
               <div class="content-projeto">
                 <span class="stars"></span>
-                <h3 class="text-project">Landing Page Cruzeiro</h3>
+                <h3 class="text-project">WatchList</h3>
                 <p class="p-project">
-                  Este projeto é uma página web personalizada, desenvolvida para
-                  criar um link bio interativo para o Cruzeiro Esporte Clube. A
-                  página inclui links para as redes sociais do clube e
-                  informações sobre alguns de seus títulos mais significativos,
-                  com um design visual impactante e responsivo.
+                  Aplicação web moderna desenvolvida para gerir listas de filmes
+                  a assistir. Permite adicionar, editar, avaliar e organizar
+                  filmes entre assistidos e não assistidos, com um sistema de
+                  classificação por estrelas. Construída com Next.js, React,
+                  MongoDB e Tailwind CSS.
                 </p>
 
                 <!-- Botões de ação -->
                 <div class="botoes-projeto">
                   <a
-                    href="https://github.com/guilhermesfranca/cruzeirolink"
+                    href="https://github.com/guilhermesfranca/wlist"
                     target="_blank"
                     class="btn-projeto"
                     >Repositório</a
                   >
                   <a
-                    href="https://guilhermesfranca.github.io/cruzeirolink/"
+                    href="https://wlist-1jr3.onrender.com/"
                     target="_blank"
                     class="btn-projeto"
                     >Ver site</a
@@ -275,10 +291,14 @@
             <div class="face-projeto face1-projeto">
               <div class="content-projeto">
                 <span class="stars"></span>
-                <h3 class="text-project">Imobiliária França</h3>
+                <h3 class="text-project">Spotidados</h3>
                 <p class="p-project">
-                  Landing Page de imobiliária com contato direto com opção para
-                  contato direto com os corretores.
+                  Aplicação de histórico do Spotify com visualizações
+                  de dados interativas.Tudo processado client-side com
+                  milhares de entradas JSON. Construímos com Next.js e React.
+                  Sistema de filtragem dinâmica, busca em tempo real de
+                  artistas, transições suaves. Funcionou melhor do que
+                  esperávamos.
                 </p>
 
                 <div class="botoes-projeto">
@@ -413,7 +433,6 @@
                     class="btn-projeto"
                     >Repositório</a
                   >
-                  
                 </div>
               </div>
             </div>
@@ -426,43 +445,43 @@
         Seção Contato
       ------------------------->
 
-<!--
+      <!--
 https://app.getform.io/forms/bkknoyvb - link para acesso do formulário e dados      
 -->
 
-      
-     <section id="contato">
-  <h2>ENTRE EM CONTATO</h2>
-  <form action="https://getform.io/f/bkknoyvb" method="POST">
-    <fieldset>
-      <label for="name">Nome</label>
-      <input type="text" name="name" id="name" required />
+      <section id="contato">
+        <h2>ENTRE EM CONTATO</h2>
+        <form action="https://getform.io/f/bkknoyvb" method="POST">
+          <fieldset>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" required />
 
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
 
-      <label for="phone">Telefone</label>
-      <input type="text" name="phone" id="phone" />
+            <label for="phone">Telefone</label>
+            <input type="text" name="phone" id="phone" />
 
-      <label for="message">Mensagem</label>
-      <textarea name="message" id="message" required></textarea>
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" required></textarea>
 
-      <input type="submit" value="Enviar" />
-      <input type="reset" value="Cancelar" />
-    </fieldset>
-  </form>
-</section>
-
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Cancelar" />
+          </fieldset>
+        </form>
+      </section>
     </main>
 
     <!----------------------
         Seção Rodapé
       ------------------------->
     <footer class="rodape">
-      <p>Desenvolvido por <strong>Guilherme França</strong></p>  <p>
-    © 2025 Todos os direitos reservados. Este site faz parte do projeto de curso da
-    <strong>Bytes4Future</strong>.
-  </p>
-</footer>
+      <p>Desenvolvido por <strong>Guilherme França</strong></p>
+      <p>
+        © 2025 Todos os direitos reservados. Este site faz parte do projeto de
+        curso da
+        <strong>Bytes4Future</strong>.
+      </p>
+    </footer>
   </body>
 </html>

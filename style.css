@@ -15,7 +15,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #99e300; 
+  background-color: #99e300;
 }
 
 .logo {
@@ -31,7 +31,7 @@ nav {
   width: 50%;
 }
 .navbar:hover {
-  color:#8130cd;
+  color: #8130cd;
   transition: all ease 0.5s;
   font-weight: bolder;
   font-size: x-large;
@@ -62,7 +62,7 @@ Página Principal
 }
 
 i:hover {
-  color:#8130cd;
+  color: #8130cd;
   transition: all ease 0.5s;
 }
 .h2-home {
@@ -450,14 +450,14 @@ Página Projetos
           padding: 0;
         }
         .text-project {
-          color:#7dd02f;
-          text-shadow: #8130cd 2px 2px  ;
+          color: #7dd02f;
+          text-shadow: #8130cd 2px 2px;
           text-align: center;
           font-size: 1.5rem;
         }
         .p-project {
-          color:#fff;
-          text-align: center; 
+          color: #fff;
+          text-align: center;
           font: 0.9rem Arial, sans-serif;
           margin-top: 5px;
         }
@@ -500,30 +500,47 @@ Página Projetos
   }
 
   .card-projeto:nth-child(1) .face2-projeto {
-    background-image: url("assets/cruzeiro.gif");
+    background-image: url("assets/wlist.gif");
+    background-size: contain; /* Ajusta a imagem ao container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
     border-radius: 15px;
   }
 
   .card-projeto:nth-child(2) .face2-projeto {
-    background-image: url("assets/realstate.gif");
-    border-radius: 15px;
+    background-image: url("assets/spotidados.gif");
+    background-size: contain; /* Ajusta a imagem ao container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
     border-radius: 15px;
   }
 
   .card-projeto:nth-child(3) .face2-projeto {
     background-image: url("assets/cafe.gif");
+    background-size: contain; /* Ajusta a imagem ao container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
     border-radius: 15px;
   }
   .card-projeto:nth-child(4) .face2-projeto {
     background-image: url("assets/petshop.gif");
+    background-size: contain; /* Ajusta a imagem ao container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
     border-radius: 15px;
   }
   .card-projeto:nth-child(5) .face2-projeto {
     background-image: url("assets/simpsons.gif");
+    background-size: contain; /* Ajusta a imagem ao container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
     border-radius: 15px;
   }
   .card-projeto:nth-child(6) .face2-projeto {
     background-image: url("assets/barber.gif");
+    background-size: contain; /* Ajusta a imagem ao container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
     border-radius: 15px;
   }
 }
@@ -581,7 +598,7 @@ Página Contato
   background-color: #444;
   color: #fff;
   font-size: 0.95rem;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 #contato input[type="text"]:focus,
@@ -626,16 +643,12 @@ Página Contato
   background-color: #444;
 }
 
-
-
-
 /*TODA ESSA SEÇÃO PARA BAIXO É APENAS UM TESTE, FEITO INICIALMENTE COM INTELIGÊNCIA ARTIFICIAL PARA UMA TENTATIVA DE OTIMIZAÇÃO EM DISPOSITIVOS MÓVEIS E NÃO DEVERÁ SER CONSIDERADA COMO PARTE INTEGRANTE DO PROJETO*/
 
 /* Media queries for mobile devices */
 
 /* Smartphones portrait (up to 600px) */
 @media (max-width: 600px) {
-
   header {
     flex-direction: column;
     align-items: center;
@@ -820,12 +833,10 @@ Página Contato
     font-size: 0.85rem;
     padding: 8px 20px;
   }
-
 }
 
 /* Smartphones landscape and small tablets (601px to 768px) */
 @media (min-width: 601px) and (max-width: 768px) {
-
   header {
     flex-direction: row;
     justify-content: space-between;
@@ -981,12 +992,10 @@ Página Contato
     font-size: 0.9rem;
     padding: 10px 22px;
   }
-
 }
 
 /* ---------- HOME SECTION: Ajustando o símbolo </> e centralização --------- */
 @media (max-width: 600px) {
-
   .home-content {
     flex-direction: column;
     gap: 30px;
@@ -1005,7 +1014,7 @@ Página Contato
     margin: 10px 10px 0 10px;
     text-align: center;
   }
-  
+
   .h1-home {
     font-size: 2.5rem;
     margin-top: -5px;
@@ -1018,7 +1027,6 @@ Página Contato
   }
 }
 
-
 /* ---------- SEÇÃO IDIOMAS: Cards responsivos, empilhados --------- */
 @media (max-width: 900px) {
   .container {
@@ -1030,7 +1038,8 @@ Página Contato
   .card-main {
     padding: 30px 0 !important;
   }
-  .container .card, .container .card .face {
+  .container .card,
+  .container .card .face {
     width: 95vw !important;
     min-width: unset;
     max-width: 380px;
@@ -1039,7 +1048,8 @@ Página Contato
     height: auto !important;
   }
 
-  .container .card .face.face1, .container .card .face.face2 {
+  .container .card .face.face1,
+  .container .card .face.face2 {
     transform: none !important;
     min-height: 100px;
     padding: 10px 0;
@@ -1049,7 +1059,6 @@ Página Contato
     line-height: 1.4rem;
   }
 }
-
 
 /* ---------- SEÇÃO PROJETOS: Grid em coluna no mobile --------- */
 @media (max-width: 1000px) {
@@ -1062,8 +1071,8 @@ Página Contato
     margin: 25px 0 !important;
   }
   .h1-home {
-  line-height:4rem;
-}
+    line-height: 4rem;
+  }
   .card-projeto {
     width: 95vw !important;
     max-width: 370px !important;
@@ -1072,8 +1081,8 @@ Página Contato
     margin: 0 auto;
   }
   .h1-home {
-  line-height:4rem;
-}
+    line-height: 4rem;
+  }
   .face-projeto {
     position: relative !important;
     width: 100% !important;
@@ -1088,7 +1097,6 @@ Página Contato
   }
 }
 
-
 @media (max-width: 600px) {
   .container-projetos {
     padding: 8px 0 30px 0 !important;
@@ -1096,8 +1104,8 @@ Página Contato
     margin: 0 !important;
   }
   .h1-home {
-  line-height:4rem;
-}
+    line-height: 4rem;
+  }
   .card-projeto {
     max-width: 98vw !important;
     min-width: 0;
@@ -1113,9 +1121,9 @@ Página Contato
   }
 }
 
-
 /* CORRIGINDO OVERFLOW/SCROLL QUEBRA DE PALAVRA */
-.p-project, .descricao {
+.p-project,
+.descricao {
   word-break: break-word;
   overflow-wrap: break-word;
 }
