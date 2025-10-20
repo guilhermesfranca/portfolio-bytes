@@ -530,7 +530,7 @@ Página Projetos
     border-radius: 15px;
   }
   .card-projeto:nth-child(5) .face2-projeto {
-    background-image: url("assets/simpsons.gif");
+    background-image: url("assets/bytes4coolors.gif");
     background-size: contain; /* Ajusta a imagem ao container */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
