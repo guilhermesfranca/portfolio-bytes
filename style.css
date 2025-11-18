@@ -500,7 +500,7 @@ Página Projetos
   }
 
   .card-projeto:nth-child(1) .face2-projeto {
-    background-image: url("assets/wlist.gif");
+    background-image: url("assets/devrats.gif");
     background-size: contain; /* Ajusta a imagem ao container */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
@@ -516,14 +516,14 @@ Página Projetos
   }
 
   .card-projeto:nth-child(3) .face2-projeto {
-    background-image: url("assets/cafe.gif");
+    background-image: url("assets/wlist.gif");
     background-size: contain; /* Ajusta a imagem ao container */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     border-radius: 15px;
   }
   .card-projeto:nth-child(4) .face2-projeto {
-    background-image: url("assets/petshop.gif");
+    background-image: url("assets/plantaaqui.gif");
     background-size: contain; /* Ajusta a imagem ao container */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
